@@ -9,6 +9,7 @@ class Sphinx {
       this.riddles.shift()
     }
   }
+
   attemptAnswer(answer) {
     
   }

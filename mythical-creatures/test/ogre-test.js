@@ -55,7 +55,6 @@ describe('Ogre', () => {
     const human = new Human('Jane');
 
     assert.equal(human.noticesOgre(), false);
-
     ogre.encounter(human);
     ogre.encounter(human);
     ogre.encounter(human);
